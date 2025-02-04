@@ -1,0 +1,1113 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-top: 0; 
+  margin: 0;
+
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* .initial-body{
+  width: 200px;
+  height: 200px;
+  background-image: url(assets/coffee-photo.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  z-index: 0;
+  display: none;
+} */
+
+
+.header-first{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background: rgb(48, 47, 47); 
+}
+
+.logo-image{
+  position: relative;
+  top: 185px;
+  z-index: 1999999;
+  width: 10%;
+  height: 453px;
+  background-image: url(assets/logo-photo.png); 
+  background-repeat: no-repeat;
+  background-size: 90px;
+  padding-left: 100px;
+
+}
+
+.circle-logo{
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  border-radius: 47%;
+  background-color: rgb(48, 47, 47);  
+  z-index: 99999;
+  left: 49.1%;
+
+}
+
+
+.header-group-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-left: 670px;
+  padding-right: 100px;
+}
+.header-group-2 {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-right: 800px;
+  padding-left: 100px;
+}
+
+.vertical-line-header {
+  width: 1px;
+  height: 18px;
+  background-color: rgb(129, 128, 128);
+}
+
+.header {
+  top: 60px;
+  left: 0;
+  width: 100%; 
+  height: 1000px;
+  background-color: rgb(85, 85, 85); 
+  position: absolute;
+  
+}
+
+.a-button-contactme{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: color 1s;
+
+}
+
+.a-button-contactme:hover{
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.header-infos{
+  font-size: 10px;
+  color: white;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.5s;
+
+}
+
+.header-infos:hover{
+  color: rgb(0, 0, 0);
+}
+
+.second-aboutme-space{
+  margin-top: 1000px;
+  
+}
+
+.aboutme-space{
+  width: 100%;
+  height: 850px;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+}
+
+.aboutme-photo {
+  position: relative;
+  top: 220px;
+  left: 490px;
+  z-index: 1;
+  width: 550px;
+  height: 400px;
+  background-image: url(assets/aboutme-photo.png); 
+  background-repeat: no-repeat;
+  background-size: 300px;
+  opacity: 80%;
+  border: 1px;
+  border-color: rgba(255, 255, 255, 0.055);
+  border-style: solid;
+}
+
+
+.aboutme-text{
+  position: relative;
+  top: 320px;
+  right: 550px;
+  font-size: 18px;
+  color:rgb(235, 229, 229);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 2;
+  opacity: 1; 
+}
+
+.contact-button{
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  margin-top: 590px;
+  left: 855px;
+  font-family:  'Montserrat';
+  font-size: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.822);
+  border-radius: 3px;
+  border-width: 0;
+  transition: background-color 1s;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.contact-button:hover{
+  background-color: rgb(37, 37, 37);
+}
+
+
+
+.block-final-aboutme-text{
+  display: block;
+  justify-content: center;
+  background-color: rgb(32, 32, 32);
+  width: auto;
+  height: 350px;
+  text-align: center;
+  align-items: center;
+}
+
+.final-aboutme-text{
+  font-size: 30px;
+  color:rgb(158, 157, 157);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 2;
+  opacity: 1; 
+  line-height: 1;
+  padding-top: 6%;
+}
+
+.final-aboutme-text-1{
+  font-size: 10px;
+  color:rgb(255, 255, 255);
+  font-family:  'Montserrat';
+  z-index: 2;
+  opacity: 1; 
+  line-height: 1;
+  padding-top: 15px;
+
+}
+
+
+
+.profile-photo{
+  width: 1000px;
+  height: 1000px;
+  background-image: url(assets/profile-photo.PNG);
+  background-size: 680px;
+  background-repeat: no-repeat;
+  float: inline-end;  
+}
+
+.text-photographer{
+  margin-left: 14%;
+  margin-top: 15%;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "Libre Caslon Display", serif;
+  
+}
+
+.text-photographer-2{
+  position: relative;
+  top: 205px;
+  left: 520px;
+  font-size: 70px;
+  color: rgb(216, 216, 216);
+  font-family:  "Libre Caslon Display", serif;
+  white-space: nowrap; 
+}
+
+.horizontal-line-photographer-2{
+  position: relative;
+  width: 1050px;
+  height: 1px;
+  top: 455px;
+  left: 340px;
+  background-color: rgb(129, 128, 128);
+  transform: rotate(270deg);
+}
+
+
+.black-block-video{
+  background-color: rgb(15, 15, 15);
+  position: relative;
+  top: 1000px;
+  width: 100vw; 
+  height: 900px;
+  
+}
+.white-block-video {
+  position: absolute; 
+  width: 100vw;
+  height: 900px; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-block-video video {
+  width: 100vw;
+  height: auto; 
+  object-fit: cover;
+  opacity: 8%; 
+  
+
+}
+
+.news{
+  width: auto;
+  height: 40px;
+  background-color: rgba(22, 22, 22, 0.966);
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.news-text {
+  font-family:  'Montserrat';
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  left: 100%;
+  animation: moveText 7s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes moveText {
+  0% {
+      left: 100%;
+  }
+  20%{
+    color: rgba(255, 255, 255, 0.726);
+
+  }
+
+  40%{
+    color: rgba(255, 255, 255, 0.171);
+  }
+
+  50%{
+    color: rgba(255, 255, 255, 0);
+
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.219);
+      left: -100%;
+  }
+}
+
+.overlay-text-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 40px;
+  color: rgb(236, 234, 234);
+  font-family:  "Libre Caslon Display", serif;
+  text-align: center;
+  opacity: 1; 
+}
+.overlay-text-2 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 20px;
+  color: rgb(128, 115, 115);
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  opacity: 1; 
+}
+
+
+.text-name{
+  margin-left: 35%;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat';
+  white-space: nowrap;
+}
+
+.separation-block-services{
+  background-color: rgba(226, 222, 210, 1);
+  width: auto;
+  height: 260px;
+}
+
+.block-text {
+  line-height: 550%;
+}
+.text-separation-0{
+  font-family:  "Bodoni Moda", serif;
+  color: rgb(63, 45, 45);
+  font-size: 100px;
+  margin-right: 20px;
+  margin-left: 78%;
+
+}
+.text-separation-1{
+  font-family:  "Bodoni Moda", serif;
+  color: rgb(119, 105, 105);
+  font-size: 100px;
+  margin-right: 20px;
+  margin-left: 70%;
+}
+.text-separation-2{
+  font-family:  "Bodoni Moda", serif;
+  color: black;
+  font-size: 100px;
+  margin-left: 73%;
+}
+
+.first-block{
+  display: flex;
+  justify-content: center;
+}
+
+.block-first-photo{
+  position: relative; 
+  width: auto;
+  height: 1400px;
+  display: flex;
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  background-color: rgba(14, 13, 13, 0.89);
+   
+}
+
+.first-photo{
+  width: 300px;
+  height: 400px;
+  background-image: url('assets/photo-1.png'); 
+  background-size:300px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15%;
+  right: 1033px;
+  z-index: 3;  
+  border-width: 15px;
+  border-color: rgb(29, 28, 28);
+  border-style: solid;
+  
+  
+}
+
+.block-buttons-radius{
+ position:absolute;
+ left: 33.6%;
+ top: 45.6%;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+
+}
+
+.buttons-radius-1{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 30;
+}
+.buttons-radius-2{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 30;
+}
+.buttons-radius-3{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 30;
+}
+
+.arrow-left-button{
+  width: 300px;
+  height: 300px;
+  background-image: url('assets/left-arrow.png'); 
+  background-size: 50px;
+  background-repeat: no-repeat;
+  position: absolute; 
+  z-index: 500;
+  top: 43.2%;
+  left: 31%;
+  cursor: pointer;
+
+}
+
+
+  .arrow-right-button {
+    width: 300px;
+    height: 300px;
+    background-image: url('assets/right-arrow.png'); 
+    background-size: 50px;
+    background-repeat: no-repeat;
+    position: absolute; 
+    z-index: 500;
+    top: 43.2%;
+    left: 35.3%;
+    cursor: pointer;
+}
+ 
+  
+
+
+/* bloco choose your experience - início */
+
+.white-block-ms-cols{
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  z-index: 20;
+  
+}
+
+.white-block-ms-1{
+  position: relative;
+  background-color: rgba(122, 121, 121, 0.384);
+  width: 280px;
+  height: 200px;
+  z-index: 6;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 1s;
+  border-radius: 2px;
+}
+
+.white-block-ms-1:hover {
+  background-color: rgba(32, 32, 32, 0.384);
+}
+
+
+
+
+
+.text-white-block-ms-1{
+  position: absolute;
+  top: 720px;
+  left: 490px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 9;
+}
+
+.subtitle-ms-1{
+  position: absolute;
+  top: 760px;
+  left: 495px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat';
+  z-index: 9;
+}
+
+
+.arrow-icon{
+  width: 300px;
+  height: 383px;
+  background-image: url('assets/arrow-image.png'); 
+  background-size: 200px;
+  background-repeat: no-repeat;
+  margin-left: 730px;
+  margin-top: 650px;
+  position: absolute; 
+  z-index: 5;
+
+}
+
+.steps-1{
+  position: absolute;
+  top: 67%;
+  left: 480px;
+  font-size: 12px;
+  color: rgb(250, 230, 230);
+  font-family: 'Montserrat';
+  z-index: 9;
+  text-transform: uppercase;
+}
+.steps-2{
+  position: absolute;
+  top: 67%;
+  left: 778px;
+  font-size: 12px;
+  color: rgb(250, 230, 230);
+  font-family: 'Montserrat';
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+.steps-3{
+  position: absolute;
+  top: 67%;
+  left: 925px;
+  font-size: 12px;
+  color: rgb(250, 230, 230);
+  font-family: 'Montserrat';
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+.steps-4{
+  position: absolute;
+  top: 67%;
+  left: 1075px;
+  font-size: 12px;
+  color: rgb(250, 230, 230);
+  font-family: 'Montserrat';
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+
+.title-become-friends{
+  position: absolute;
+  top: 25px;
+  font-size: 25px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+}
+
+.title-planning-all-details{
+  position: absolute;
+  top: 25px;
+  font-size: 25px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+}
+
+.title-fun-together{
+  position: absolute;
+  top: 25px;
+  font-size: 25px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+}
+
+.title-delivery-time{
+  position: absolute;
+  top: 25px;
+  font-size: 25px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+}
+
+.text-become-friends{
+  position: absolute;
+  top: 70px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  margin: 10px;
+}
+
+.text-planning-all-details{
+  position: absolute;
+  top: 70px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  margin: 10px;
+}
+.text-fun-together{
+  position: absolute;
+  top: 70px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  margin: 10px;
+}
+.text-delivery-time{
+  position: absolute;
+  top: 70px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  margin: 10px;
+}
+
+
+
+
+/* bloco choose your experience - final */
+
+
+
+.black-block-first-photo {
+  position: absolute;
+  top: 139.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.062);
+  width: 850px;
+  height: 180px;
+  z-index: 6;
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.116);
+
+}
+
+
+.text-block-ms-1{
+  position: relative;
+  top: 390px;
+  left: 450px;
+  font-size: 15px;
+  color: rgb(228, 217, 217);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 5;
+
+}
+
+.text-title-ms{
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat';
+  white-space: nowrap;
+  position: absolute;
+  top: 132%;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-block-ms-2{
+  padding-top: 33px;
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  font-family: "Antic Didone", serif;
+  z-index: 6;
+  line-height: 1;
+
+}
+
+.vertical-square-1{
+  position: absolute;
+  top: 21%;
+  height: 500px;
+  width: 100%;  
+  background-color: rgb(29, 28, 28);
+  z-index: 2;
+}
+
+
+.photo-1{
+  width: 300px;
+  height: 383px;
+  background-image: url('assets/photo-m.png'); 
+  background-size:300px;
+  background-repeat: no-repeat;
+  margin-left: 1050px;
+  margin-top: 445px;
+  position: absolute; 
+  z-index: 3;
+  border-width: 15px;
+  border-color: rgb(29, 28, 28);
+  border-style: solid;
+}
+
+.photo-2{
+  width: 300px;
+  height: 400px;
+  background-image: url('assets/photo-2.png'); 
+  background-size:300px;
+  background-repeat: no-repeat;
+  margin-left: 64%;
+  margin-top: 100px;
+  position: absolute; 
+  z-index: 3;
+
+}
+
+.photo-3{
+  width: 300px;
+  height: 400px;
+  background-image: url('assets/photo-3.png'); 
+  background-size:300px;
+  background-repeat: no-repeat;
+  margin-left: 64%;
+  margin-top: 650px;
+  position: absolute; 
+  z-index: 3;
+
+}
+
+
+.text-photos-ms{
+  position: relative;
+  top: 320px;
+  left: 855px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 5;
+}
+
+
+
+/* Bloco de casamento */
+
+.wedding-black-block-auto{
+  width: 100%; 
+  height: 1000px; 
+  background-color: rgb(29, 29, 29);
+}
+.wedding-block-auto{
+  width: 100%; 
+  height: 1000px; 
+  background-image: url('assets/_MG_4218-77.JPG'); 
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative; 
+  opacity: 60%;
+ 
+}
+
+.aspas{
+  margin-top: 130px;
+  position: absolute;
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 5;
+  line-height: 1;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-block-ms-3{
+  margin-top: 130px;
+  position: absolute;
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  font-family: "Antic Didone", serif;
+  z-index: 5;
+  line-height: 1;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.text-block-ms-4{
+  margin-top: 855px;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Antic Didone", serif;
+  z-index: 5;
+  line-height: 1.2;
+  text-transform: uppercase;
+  left: 62.4%;
+  transform: translate(-50%, -50%);
+  
+
+}
+
+.text-block-ms-5{
+  position: relative;
+  top: 900px;
+  left: 900px;
+  font-size: 15px;
+  color: rgb(228, 216, 216);
+  font-family:  "Libre Caslon Display", serif;
+  z-index: 5;
+
+}
+
+.wedding-block-auto-2{
+  background-color: rgba(78, 61, 40, 0.699);
+  width: auto;
+  height: 1500px;
+  position: relative;
+}
+
+.wedding-center{
+  background-color: rgb(223, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.wedding-block-auto-3{
+  position: absolute;
+  top: 55%;
+  left: 26%;
+  width: 400px; 
+  height: 515px; 
+  background-image: url('assets/coffee-photo.png'); 
+  background-size: 400px;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid; 
+ 
+}
+
+.wedding-container-cols{
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.wedding-col-1{
+  position: relative;
+  background-color: rgba(250, 239, 226, 0.815);
+  background-image: url(assets/fourth-photo.png);
+  background-size: cover;
+  width: 280px;
+  height: 350px;
+  z-index: 9;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+
+}
+.wedding-col-2{
+  position: relative;
+  background-color: rgba(250, 239, 226, 0.815);
+  background-image: url(assets/_MG_3898-3.JPG);
+  background-size: cover;
+  width: 280px;
+  height: 350px;
+  z-index: 9;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+
+
+}
+.wedding-col-3{
+  position: relative;
+  background-color: rgba(250, 239, 226, 0.815);
+  background-image: url(assets/third-photo.png);
+  background-size: cover;
+  width: 280px;
+  height: 350px;
+  z-index: 9;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+
+}
+
+.underlined-memories{
+  margin-top: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 2px;
+  background-color: white;
+  z-index: 20;
+
+}
+.wedding-cols-block-4{
+  position: absolute;
+  left: 39.4%;
+  margin-top: 580px;
+  background-color: rgba(243, 234, 224, 0.89);
+  width: 380px;
+  height: 110px;
+  border-width: 2px;
+  border-color: rgb(248, 248, 248);
+  border-style: solid;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-ana-john-1{
+  margin-top: 10px;
+  position: absolute;
+  font-size: 38px;
+  color: rgb(83, 83, 83);
+  font-family: "Antic Didone", serif;
+  z-index: 600;
+  line-height: 1;
+  text-transform: uppercase;
+ 
+}
+
+.text-ana-john-2{
+  margin-top: 60px;
+  position: absolute;
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+  font-family: "Antic Didone", serif;
+  z-index: 600;
+  line-height: 1;
+}
+
+
+
+
+/* animações vindo da direita*/
+
+.animate {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 2.5s ease-out, opacity 1s ease-out;
+}
+
+
+.animate-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* bloco de comidas */
+
+.foods-block-auto{
+  background-color: rgba(203, 193, 183, 1);
+  width: auto;
+  height: 2300px;
+  position: relative;
+}
+
+.food-photo-first{
+  width: 50%;
+  height: 900px;
+  background-image: url('assets/alimentos_27.jpg'); 
+  background-size: 700px;
+  background-repeat: no-repeat;
+  margin-left: 60%;
+  margin-top: 64px;
+  position: absolute; 
+  z-index: 2;
+  
+}
+
+.food-text-first-title{
+  position: absolute;
+  font-family: Abhaya Libre SemiBold;
+  color:rgba(102, 101, 99, 1);
+  font-size: 2vw;
+  top: 10%; 
+  left: 20%; 
+}
+
+.food-text-subtitle{
+  position: absolute;
+  font-family: Abhaya Libre SemiBold;
+  color:rgba(102, 101, 99, 1);
+  font-size: 1.2vw;
+  top: 17%; 
+  left: 21.8%; 
+
+}
+
+.food-line-1{
+  position: relative;
+  width: 25%;
+  height: 4px;
+  background-color: rgba(79, 84, 78, 1);
+  top: 15%; 
+  opacity: 30%;
+  left: 16.7%;
+
+}
+.food-line-2{
+  position: relative;
+  width: 31%;
+  height: 4px;
+  background-color: rgba(79, 84, 78, 1);
+  top: 290px;
+  opacity: 30%;
+  left: 41%;
+  transform: rotate(270deg);
+
+}
+.food-line-3{
+  position: relative;
+  width: auto;
+  height: 4px;
+  background-color: rgba(79, 84, 78, 1);
+  top: 25.3%; 
+  opacity: 30%;
+}
+
+.food-photo-second {
+  width: 35%;
+  height: 820px; 
+  margin-left: 6%;
+  margin-top: 32%;
+  position: absolute;
+  z-index: 2;
+  border-radius: 45% 45% 0 0; 
+  overflow: hidden; 
+  background-size: 500px auto;
+
+}
+
+.food-photo-second img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center top; 
+
+}
+
+
