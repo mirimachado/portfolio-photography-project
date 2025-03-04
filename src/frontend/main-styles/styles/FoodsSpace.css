@@ -1,0 +1,581 @@
+
+
+/* bloco de comidas */
+
+
+.arrow-left-button-foods, .arrow-right-button-foods{
+    width: 40px;
+    height: 40px;
+    background-image: url('/src/assets/right-arrow-new.png'); 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute; 
+    z-index: 10;
+    top: 90.1%;
+    left: 33%;
+    cursor: pointer;
+    transition: opacity 1s ease;
+    transform: rotate(180deg);
+    opacity: 40%;
+    
+  }
+
+  .arrow-left-button-foods{
+    left: 50%;
+    transform: translate(-800%, -40%) rotate(180deg);
+
+  }
+  
+  
+    .arrow-right-button-foods {
+      background-image: url('/src/assets/right-arrow-new.png'); 
+      top: 91.4%;
+      left: 50%;
+      transition: transform 0.5s ease;
+      transition: opacity 1s ease;
+      transform: translate(-520%, -38%);
+  
+    
+  }
+   
+  
+  .foods-block-auto{
+    background-color: rgba(243, 234, 224, 0.89);
+    width: auto;
+    height: 1500px;
+    position: relative;
+  }
+  
+  .food-photo-first{
+    width: 50%;
+    height: 900px;
+    background-image: url('/src/assets/alimentos_27.jpg'); 
+    background-size: 700px;
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-top: 64px;
+    position: absolute; 
+    z-index: 2;
+    
+  }
+  
+  .food-text-first-title, .food-text-subtitle{
+    position: absolute;
+    font-family: Abhaya Libre SemiBold;
+    color:rgba(102, 101, 99, 1);
+    font-size: 2vw;
+    top: 10%; 
+    left: 20%; 
+  }
+  
+  .food-text-subtitle{
+    font-size: 1.2vw;
+    top: 17%; 
+    left: 21.8%; 
+  }
+  
+  
+  .food-photo-second {
+    background-image: url('/src/assets/IMG_7461-Aprimorado-NR.jpg'); 
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 520px; 
+    left: 6%;
+    top: 5%;
+    position: absolute;
+    z-index: 2;
+    background-size: 400px auto;
+  
+  }
+  
+  .white-block-foods-photos {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 906px;
+    height: 450px;
+    z-index: 9;
+    text-align: center;
+    display: flexbox;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.055);
+    box-shadow: 5px 5px 15px 10px rgb(196, 190, 190);
+  
+  }
+  
+  .foods-container-cols{
+    padding-top: 242px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .foods-col-1, .foods-col-2, .foods-col-3{
+    position: relative;
+    background-color: rgba(219, 202, 180, 0.555);
+    background-image: url(/src/assets/alimentos_27.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 350px;
+    z-index: 9;
+    border-bottom: solid 1px rgb(158, 150, 150);
+    
+  
+  }
+  .foods-col-2{
+    background-image: url(/src/assets/IMG_7461-Aprimorado-NR.jpg);
+    background-size: cover;
+    
+  }
+  .foods-col-3{
+    background-image: url(/src/assets/alimentos_46.jpg);
+  }
+  
+  .text-block-ms-6{
+    margin-top: 80px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.705);
+    font-family: "Antic Didone", serif;
+    z-index: 5;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    
+  
+  }
+  
+  .underlined-memories-2{
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 2px;
+    background-color: rgba(83, 83, 83, 0.37);
+    z-index: 20;
+  
+  }
+  
+  .foods-block-auto-3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-112.5%, -0%);
+    width: 400px; 
+    height: 515px; 
+    background-image: url('/src/assets/IMG_7464-Aprimorado-NR.jpg'); 
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid; 
+    box-shadow: 10px 10px 10px 5px rgb(187, 185, 185);
+  }
+  
+  
+  .text-block-ms-7{
+    margin-top: 245px;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Antic Didone", serif;
+    z-index: 5;
+    line-height: 1.2;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translate(-5%, -50%);
+    
+  
+  }
+  
+  .text-block-ms-8{
+    position: relative;
+    top: 270px;
+    left: 50%;
+    transform: translate(-1%, 5%);
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    font-family:  "Libre Caslon Display", serif;
+    z-index: 5;
+  
+  }
+  
+  .f-black-block-auto{
+    width: 100%; 
+    height: 850px; 
+    background-color: rgba(29, 29, 29, 0.959);
+    position: relative;
+  }
+  
+  .f-block-auto{
+    width: 100%; 
+    height: 850px; 
+    background-image: url('/src/assets/alimentos_46.jpg'); 
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative; 
+    opacity: 30%;
+   
+  }
+  .foods-black-block-first-photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.055);
+    width: 850px;
+    height: 180px;
+    z-index: 6;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.116);
+  
+  }
+  
+  .foods-text-block-ms-2{
+    padding-top: 33px;
+    font-size: 38px;
+    color: white;
+    font-family: "Antic Didone", serif;
+    z-index: 6;
+    line-height: 1;
+  
+  }
+  
+  .foods-text-title-ms{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    white-space: nowrap;
+    position: absolute;
+    padding-bottom: 1180px;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box-event-cols-block-4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 605px;
+    background-color: rgba(243, 234, 224, 0.89);
+    width: 380px;
+    height: 110px;
+    border-width: 2px;
+    border-color: rgb(248, 248, 248);
+    border-style: solid;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .text-box-event-1, .text-box-event-2{
+    margin-top: 13px;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(83, 83, 83);
+    font-family: "Antic Didone", serif;
+    z-index: 600;
+    line-height: 1;
+    text-transform: uppercase;
+   
+  }
+
+  .text-box-event-1{
+    font-size: 24px;
+
+
+  }
+  
+  .text-box-event-2{
+    margin-top: 60px;
+    font-size: 20px;
+    text-transform: none;
+  }
+  .f2-block {
+    position: absolute;
+    top: 72.8%;
+    left: 49%;
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 460px;
+    height: 250px;
+    z-index: 9;
+    display: flexbox;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.055);
+    box-shadow: 5px 5px 15px 10px rgb(196, 190, 190);
+  
+  }
+  
+  .text-food-1-am, .text-food-2{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    font-family:  "Libre Caslon Display", serif;
+    z-index: 9;
+  }
+
+  .text-food-1-am{
+    font-size: 12px;
+    width: 200px;
+
+  }
+  
+  .text-food-2{
+    left: 3%;
+    color: rgb(80, 52, 52);
+    z-index: 50;
+    font-size: 12px;
+  }
+  
+  .marks-3, .marks-4{
+    margin-top: 40px;
+    position: absolute;
+    font-size: 200px;
+    color: rgb(83, 83, 83);
+    font-family: "Fleur De Leah", serif;
+    z-index: 5;
+    line-height: 1;
+    text-transform: uppercase;
+    left: 68%;
+    opacity: 15%;
+  }
+
+  .marks-3{
+    left: 50%;
+    transform: translate(550%, 0%);
+
+  }
+  .marks-4{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 220px;
+    left: 50%;
+    transform: translate(-590%, 0%) rotateY(200deg);
+   
+  }
+
+
+  @media screen and (min-width: 901px) and (max-width: 1199px) {
+    .text-block-ms-8{
+    
+      top: 270px;
+      left: 50%;
+      transform: translate(-2%, 5%);
+
+    }
+
+    .text-block-ms-7{
+      white-space: nowrap;
+      font-size: 28px;
+
+    }
+
+
+    .arrow-left-button-foods{
+
+
+
+    }
+
+    .arrow-right-button-foods{
+
+
+    }
+
+  
+  }
+
+
+
+  /* Media Queries para Responsividade */
+@media screen and (max-width: 900px) {
+
+
+  .text-block-ms-7{
+    display: none;
+
+  }
+  .foods-text-block-ms-2{
+    font-size: 20px;
+    
+    
+  }
+
+  .foods-black-block-first-photo{
+   top: 636%;
+   width: 100%;
+   height: 125px;
+   z-index: 9999;
+
+  }
+
+  .f-black-block-auto{
+   
+    height: 272.5px;
+   
+    z-index: 0;
+    position: relative;
+  }
+
+  .f-block-auto{ 
+    position: relative;
+    background-size: contain;
+    z-index: 2;
+    width: 900px;
+
+  }
+
+  .final-aboutme-text-0-1{
+    display: none;
+  }
+
+  .marks-3, .marks-4, .food-initial-01,
+  .foods-block-auto-3{
+    display: none;
+  }
+
+  .foods-col-2{
+    opacity: 20%;
+
+  }
+
+  .foods-container-cols{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    gap: 5px;
+  }
+
+  .white-block-foods-photos{
+    top: 45%;
+    height: 1083px;
+    width: 300px;
+    z-index: 80;
+
+  }
+
+  .arrow-left-button-foods, .arrow-right-button-foods{
+    display: none;
+  }
+
+  .text-block-ms-6{
+    margin-top: 25px;
+    font-size: 15px;
+    white-space: wrap;
+    width: 200px;
+  }
+
+  .foods-text-title-ms{
+   
+    display: none;
+
+  }
+
+  .box-event-cols-block-4{
+    z-index: 100;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .f2-block{
+    height: 200px;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+
+  }
+
+  .text-food-2{
+   position: absolute;
+   left: 50%;
+   top: 100px;
+   transform: translate(-70%, -50%);
+   
+  
+  }
+
+  
+  .text-block-ms-4-wf-f{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .foods-black-block-first-photo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    width: 100%;
+    height: 125px;
+    background-color: rgba(255, 255, 255, 0.055); 
+    isolation: isolate; 
+
+   
+   }
+
+   .f-black-block-auto{
+   
+    position: relative;
+    overflow: hidden;
+  
+
+   }
+
+   .f-block-auto{
+    z-index: 222;
+   }
+
+   .text-block-ms-8{
+    display: none;
+
+   }
+
+
+   .text-box-event-2{
+    font-size: 16px;
+
+
+   }
+
+   
+ 
+  
+
+  
+}
+

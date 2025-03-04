@@ -1,0 +1,373 @@
+/* CSS Original com adições para responsividade */
+.black-block-video {
+    background-color: rgb(15, 15, 15);
+    position: relative;
+    top: 1000px;
+    width: 100vw;
+    height: 900px;
+}
+
+.white-block-video {
+    position: absolute;
+    width: 100vw;
+    height: 900px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-block-video video {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    opacity: 8%;
+    
+}
+
+.overlay-text-1, .overlay-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 40px;
+    color: rgb(236, 234, 234);
+    font-family: "Libre Caslon Display", serif;
+    text-align: center;
+    opacity: 1;
+}
+
+.overlay-text-1{
+    top: 460px;
+
+}
+
+
+
+.overlay-text-2 {
+    top: 570px;
+    font-size: 20px;
+    color: rgb(128, 115, 115);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-name, .title-text-name {
+    
+    margin-left: 10%;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    white-space: nowrap;
+}
+
+.text-name {
+    position: absolute;
+    top: 39.7%;
+    left: 560px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    white-space: nowrap;
+    margin-left: 0;
+}
+
+
+
+
+.title-text-name {
+    position: absolute;
+    top: 40.2%;
+    left: 130px;
+    margin-left: 0;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.title-text-name-video {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 400px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.title-sub-text-name {
+    position: absolute;
+    top: 44%;
+    left: 110px;
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+    font-family: "Libre Caslon Display", serif;
+    white-space: nowrap;
+    line-height: 0.9;
+    opacity: 40%;
+}
+
+.text-separation-0, .text-separation-1, .text-separation-2 {
+    font-family: "Bodoni Moda", serif;
+    color: rgb(63, 45, 45);
+    font-size: 100px;
+    margin-right: 20px;
+    margin-left: 78%;
+}
+
+.text-separation-1 {
+    color: rgb(119, 105, 105);
+    margin-left: 70%;
+}
+
+.text-separation-2 {
+    color: black;
+    margin-left: 73%;
+}
+
+
+@media (min-width: 901px) and (max-width: 1199px){
+    .text-name{
+        position: absolute;
+        top: 41%;
+        left: 350px;
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat';
+        white-space: nowrap;
+        margin-left: 0;
+    }
+
+    /* .black-block-video, .white-block-video {
+        height: 700px;
+    } */
+
+    .black-block-video{
+        top: 700px;
+
+    }
+
+    .title-text-name{
+        position: absolute;
+        top: 41%;
+        left: 70px;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin-left: 0;
+
+    }
+
+
+ 
+
+    .overlay-text-1 {
+        font-size: 35px;
+        max-width: 500px;
+    }
+
+    .overlay-text-2 {
+        font-size: 18px;
+        
+    }
+
+    .title-sub-text-name {
+        
+        font-size: 25px;
+        left: 80px;
+        top: 45%;
+        font-size: 17px;
+        margin-left: 0;
+    }
+
+    .text-separation-0, .text-separation-1, .text-separation-2 {
+        font-size: 80px;
+        margin-left: 70%;
+    }
+
+    .title-text-name-video{
+        top: 380px;
+
+    }
+
+    .overlay-text-2{
+        top: 580px;
+        width: 600px;
+
+    }
+
+    .second-aboutme-space{
+        margin-top: 700px;
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+ 
+    .white-block-video video {
+        width: 900px;
+        height: auto;
+        object-fit: cover;
+        opacity: 8%;
+        margin-bottom: 200px;
+        
+
+    }
+
+
+
+    .black-block-video{
+   
+        position: static;
+        
+        
+    }
+
+    video{
+        height: 700px; 
+
+        
+    }
+    .white-block-video{
+
+        position: relative;
+        top: 20%;
+        height: 700px; 
+        padding-top: 150px;   
+    }
+
+  
+    .overlay-text-1 {
+        
+        font-size: 28px;
+        width: 90%; 
+    
+    }
+
+    .overlay-text-2 {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .title-text-name {
+        top: 35%;
+        right: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    .text-name{
+        top: initial;
+        left: 40px;
+        margin-left: 0;
+        color: white;
+        font-size: 8px;
+        right: 280px;
+        margin-top: 55px;
+        z-index: 200;
+        opacity: 80%;
+        
+        
+    }
+
+    .title-text-name-video {
+        top: 38%;
+    }
+
+    .title-sub-text-name {
+        display: none;
+       
+    }
+    .title-text-name{
+        display: none;
+
+    }
+
+    .text-separation-0, .text-separation-1, .text-separation-2 {
+        font-size: 60px;
+        margin-left: 0;
+        text-align: center;
+        margin-right: 0;
+    }
+
+
+
+    .black-block-video, .white-block-video {
+        height: 400px;
+        top: 980px;
+    }
+    video{
+        margin-top:0px;
+        height: 700px; 
+
+       
+    
+    }
+
+    .black-block-video{
+       
+        background-color: transparent;
+        height: 80px;
+        
+
+        
+        
+    }
+    .white-block-video{
+     
+        background-color: rgb(77, 75, 75);
+        height: 315px;
+        
+    }
+
+    
+
+    .overlay-text-1 {
+        font-size: 20px;
+        top: 45%;
+    }
+
+    .overlay-text-2 {
+        top: 65%;
+      color: rgb(168, 168, 168);
+      line-height: 1.8;
+      letter-spacing: 0.05em;
+      font-size: 10px;
+      text-align: left;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-style: normal;
+      text-align: center;
+      left: 50%;
+    }
+
+    .title-text-name, .title-text-name-video {
+        top: 35%;
+        font-size: 10px;
+        color: rgb(235, 231, 231);
+    }
+
+    .title-text-name-video{
+        top: 38%;
+        font-size: 8px;
+
+    }
+
+
+    .title-sub-text-name {
+        font-size: 18px;
+    }
+
+    .text-separation-0, .text-separation-1, .text-separation-2 {
+        font-size: 40px;
+    }
+
+
+    
+}
+

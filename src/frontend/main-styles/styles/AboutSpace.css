@@ -1,0 +1,471 @@
+
+.second-aboutme-space {
+  margin-top: 1000px;
+}
+
+.aboutme-space {
+  width: 100%;
+  height: 850px;
+  background-color: rgba(85, 81, 78, 0.6);
+  display: flex;
+}
+
+.aboutme-photo {
+  position: absolute;
+  top: 2100px;
+  left: 50%;
+  transform: translate(-150%, -0%);
+  z-index: 1;
+  width: 310px;
+  height: 410px;
+  background-image: url(/src/assets/aboutme-photo.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  opacity: 80%;
+  box-shadow: 5px 5px 10px 2px rgba(7, 7, 7, 0.116);
+}
+
+.aboutme-text {
+  position: absolute;
+  top: 2250px;
+  left: 50%;
+  transform: translate(-30%, -40%);
+  font-size: 16px;
+  color: rgb(235, 229, 229);
+  font-family: "Libre Caslon Display", serif;
+  z-index: 2;
+  opacity: 1;
+  width: 400px;
+
+  
+}
+
+.contact-button {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  margin-top: 590px;
+  left: 50%;
+  transform: translate(-75%, -42%);
+  font-family: 'Montserrat';
+  font-size: 10px;
+  color: white;
+  background-color: rgba(17, 16, 16, 0.822);
+  border-radius: 3px;
+  border-width: 0;
+  transition: background-color 1s;
+  z-index: 20;
+}
+
+.contact-button:hover {
+  background-color: rgb(212, 207, 207);
+}
+
+.block-final-aboutme-text {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  border-bottom: solid 2px rgb(209, 198, 198);
+}
+
+.block-final-aboutme-text-2 {
+  margin-top: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.801);
+  width: auto;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+.final-aboutme-text-0, .final-aboutme-text-0-1, .final-aboutme-text-0-2 {
+  position: absolute;
+  margin-top: 170px;
+  left: 37.6%;
+  transform: translate(-505, -50%);
+  font-size: 12px;
+  color: black;
+  font-family: 'Montserrat';
+  z-index: 2;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.final-aboutme-text-0{
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 180px;
+
+}
+
+.final-aboutme-text-0-1, .final-aboutme-text-0-2 {
+  margin-top: 140px;
+}
+
+.final-aboutme-text-0-1{
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 155px;
+  white-space: nowrap;
+
+}
+
+.final-aboutme-text, .final-aboutme-text-1 {
+  font-size: 12px;
+  color: black;
+  font-family: 'Montserrat';
+  z-index: 2;
+  line-height: 1;
+  padding-top: 17px;
+  text-transform: uppercase;
+}
+
+
+.final-aboutme-text{
+  padding-bottom: 10px;
+
+}
+
+.final-aboutme-text-1 {
+  font-size: 10px;
+  opacity: 1;
+  padding-top: 15px;
+}
+
+.profile-photo {
+  position: absolute;
+  left: 45%;
+  top: 0%;
+  width: 1000px;
+  height: 1000px;
+  background-image: url(/src/assets/profile-photo.PNG);
+  background-size: 680px;
+  background-repeat: no-repeat;
+  min-width: 1000px;
+  min-height: 1000px;
+
+}
+
+.text-photographer {
+    position: absolute; 
+    left: 170px; 
+    top: 27%; 
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Caslon Display", serif;
+    white-space: nowrap;
+    z-index: 2;
+    transform: translateY(0);
+}
+
+.text-photographer-2 {
+  position: absolute;
+  top: 1920px;
+  left: 50%;
+  transform: translate(-28%, 180%);
+  font-size: 70px;
+  color: rgb(216, 216, 216);
+  font-family: "Libre Caslon Display", serif;
+  white-space: nowrap;
+}
+
+.horizontal-line-photographer-2 {
+  position: absolute;
+  width: 600px;
+  height: 1px;
+  top: 2320px;
+  left: 50%;
+  transform: translate(36%, -28%) rotate(270deg);
+
+  background-color: rgb(241, 236, 236);
+ 
+}
+
+@media (min-width: 901px) and (max-width: 1199px) {
+ 
+
+  .text-photographer{
+    position: absolute; 
+    left: 120px; 
+    top: 27%;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Caslon Display", serif;
+    white-space: nowrap;
+    z-index: 2;
+    transform: translateY(0);
+  }
+
+  /* .second-aboutme-space{
+
+    margin-top: 700px;
+
+  } */
+
+  
+  .profile-photo {
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    min-width: 1000px;
+    min-height: 1000px;
+    background-image: url(/src/assets/profile-photo.PNG);
+    background-size: 500px;
+    background-repeat: no-repeat;
+  
+  
+  }
+
+  .aboutme-photo{
+
+    top: 1800px;
+    left: 50%;
+    transform: translate(-150%, -0%);
+
+  }
+
+  .text-photographer-2{
+    top: 1920px;
+    left: 50%;
+    transform: translate(-20%, -160%);
+  }
+
+  .aboutme-text{
+    top: 2250px;
+    left: 50%;
+    transform: translate(-20%, -190%);
+  }
+
+  .horizontal-line-photographer-2{
+    top: 2020px;
+
+
+  }
+
+  .contact-button{
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .aboutme-photo{
+    left: 50%;
+    transform: translate(-135%, -0%);
+
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .second-aboutme-space {
+     margin-top: 900px;
+
+
+  }
+
+  .aboutme-space {
+
+      height: auto;
+      padding: 0px 20px;
+      position: relative;
+      align-items: center;
+      height: 900px;
+
+
+  }
+
+  .aboutme-photo {
+  
+      position: absolute;
+      left: 45%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 400px;
+      background-size: contain;
+      background-position: center;
+      box-shadow: 5px 5px 5px 1px rgba(59, 58, 58, 0.116);
+     
+  }
+
+
+  .contact-button {
+
+    position: relative;
+    margin-right: 20px;
+  
+  }
+
+  .aboutme-text {
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 15px;
+      height: 250px;
+      width: 300px;
+
+  }
+
+  .contact-button {
+      position: absolute;
+      top: 88%;
+      left: 46%;
+      transform: translate(-50%, -50%);
+      margin: 30px auto;
+      display: block;
+  }
+
+  .block-final-aboutme-text,
+  .block-final-aboutme-text-2 {
+      margin-top: 40px;
+      padding: 20px;
+      height: auto;
+  }
+
+  .block-final-aboutme-text{
+ 
+    display: none;
+
+  }
+
+  .text-photographer {
+    position: absolute; 
+    left: 14%; 
+    top: 15%; 
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Caslon Display", serif;
+    white-space: nowrap;
+    z-index: 2;
+    transform: translateY(0);
+  }
+  
+  .text-photographer-2 {
+      font-size: 30px;
+      position: absolute;
+      top: 350px;
+      left: 50%;
+      transform: translate(-125%, -50%);
+      text-align: center;
+      margin: 20px auto;
+      color: rgb(214, 209, 209);
+      font-family: "Rouge Script", serif;
+      font-weight: 400;
+      font-style: italic;
+      
+
+  }
+
+  .arrow-icon{
+    display: none;
+
+  }
+
+
+
+  .profile-photo {
+     
+      display: none;
+  }
+
+  .final-aboutme-text-0,
+  
+  .final-aboutme-text-0-2 {
+      position: static;
+      margin: 10px auto;
+      text-align: center;
+  }
+
+  .horizontal-line-photographer-2{
+    position: absolute;
+    left: 83%;
+    top: 42%;
+    z-index: 300;
+    height: 300px;
+    width: 1px;
+    transform: none;
+    background-color: rgb(131, 130, 130);
+
+  }
+
+
+  .second-aboutme-space {
+    margin-top: 0px;
+}
+
+.aboutme-photo {
+    height: 290px;
+    background-image: url(/src/assets/close-profile-photo.png);
+
+}
+
+.aboutme-text {
+    font-size: 18px;
+    height: 250px;
+    width: 300px;
+    left: 45%;
+    top: 30%;
+    transform: translate(-50%, 50%);
+    color: rgb(245, 245, 245);
+    text-align: start;
+    opacity: 80%;
+    font-family: 'Montserrat';
+    color: rgb(248, 236, 236);
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.aboutme-space{
+  
+}
+
+
+.text-photographer {
+
+  display: none;
+
+}
+
+
+
+
+.final-aboutme-text,
+.final-aboutme-text-1 {
+    font-size: 10px;
+}
+
+.final-aboutme-text{
+  margin-top: 300px;
+  color: white;
+}
+
+.header{
+  background-color: rgb(66, 63, 63);
+  height: 80px;
+}
+
+.text-photographer-2{
+  transform: translate(-113%, -50%);
+
+}
+
+
+
+
+
+}
+

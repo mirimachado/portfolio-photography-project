@@ -1,0 +1,43 @@
+.alert-box {
+  margin-top: 720px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Libre Caslon Display", serif;
+  animation: fadeIn 0.5s ease-in-out;
+  position: fixed; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 9999;
+  width: 250px; 
+  top: 20px;
+}
+
+.alert-box.success {
+  background-color: #8da78e3a;
+}
+
+.alert-box.error {
+  background-color: #be827d6c;
+}
+
+.alert-email {
+  position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translate(-69%, -50%);
+  font-family: "Libre Caslon Display", serif;
+  font-size: 13px;
+  color: rgb(223, 62, 62);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
