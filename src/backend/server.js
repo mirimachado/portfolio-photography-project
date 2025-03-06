@@ -8,8 +8,18 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 5004;
 
+// Configuração do CORS global
+const corsOptions = {
+  origin: [
+    'https://mirimachado.github.io', // URL do seu frontend no GitHub Pages
+    'https://servidor-d2zh6y5dk-mirias-projects-84c4120f.vercel.app' // Caso precise adicionar o Vercel
+  ],
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type'],
+};
+
+app.use(cors(corsOptions)); // Configuração do CORS aplicada globalmente
 app.use(bodyParser.json());
-app.use(cors());
 
 // Configuração do Nodemailer
 const transporter = nodemailer.createTransport({
@@ -39,13 +49,6 @@ app.post('/send-email', (req, res) => {
     text: message,
     replyTo: email, // O e-mail de resposta será o e-mail do usuário
   };
-
-  app.use(cors({
-    origin: 'http://localhost:3000',  // URL do seu frontend
-    methods: ['GET', 'POST'],
-  }));
-  
-  
 
   // Enviar o e-mail
   transporter.sendMail(mailOptions, (error, info) => {
