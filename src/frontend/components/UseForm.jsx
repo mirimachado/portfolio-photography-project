@@ -56,13 +56,20 @@ const useForm = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5004/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        process.env.NODE_ENV === "production"
+          ? "https://servidor-d2zh6y5dk-mirias-projects-84c4120f.vercel.app/send-email"
+          : "http://localhost:5004/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+      
+      
 
       const data = await response.json();
 
