@@ -34,6 +34,6 @@ Aplicação de boas práticas de acessibilidade web para tornar a navegação ma
 
 - Aprendizados e Conclusão
 
-Além de aprimorar minhas habilidades em desenvolvimento frontend, UI/UX design e deploy de aplicações web, este projeto reforçou a importância de criar experiências digitais que valorizam o trabalho do cliente, combinando design impactante, performance otimizada e usabilidade eficiente.
+Além de aprimorar minhas habilidades em desenvolvimento frontend, UI/UX design e deploy de aplicações web, este projeto reforçou a importância de criar experiências digitais que valorizam o trabalho do cliente.
 
 🔗 Acesse o projeto: https://mirimachado.github.io/portfolio-photography-project/
