@@ -14,23 +14,21 @@ da aplicação, garantindo uma experiência completa e alinhada às melhores pr�
 - Prototipação & UI/UX Design
 
 O design da interface foi criado no Figma, garantindo um layout moderno, intuitivo e alinhado à identidade visual da fotógrafa.
-Priorizamos a experiência do usuário (UX), criando uma navegação fluida e agradável.
+Priorizando a experiência do usuário (UX), criando uma navegação fluida e agradável.
 
 - Tecnologias Utilizadas
 
 Frontend: Desenvolvido com React.js, HTML5 e CSS3, proporcionando componentização, reutilização de código e otimização de performance.
 Estilização: Utilização de CSS Modules para melhor organização e manutenção do código.
-Bibliotecas adicionais: Implementação de animações e transições suaves para enriquecer a experiência visual.
 
 - Hospedagem & Implantação
 
 O frontend foi publicado via GitHub Pages, garantindo fácil acesso e manutenção.
-O backend foi hospedado na Vercel, assegurando uma infraestrutura estável e de alto desempenho.
+O backend foi hospedado na Vercel, assegurando uma infraestrutura estável e de bom desempenho.
 
 - Responsividade & Acessibilidade
 
 A página foi projetada para oferecer uma experiência consistente em diferentes dispositivos e tamanhos de tela (mobile-first).
-Aplicação de boas práticas de acessibilidade web para tornar a navegação mais inclusiva.
 
 - Aprendizados e Conclusão
 
