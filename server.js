@@ -1,16 +1,17 @@
-require('dotenv').config();
-
-const express = require('express');
-const nodemailer = require('nodemailer');
-const cors = require('cors');
-const bodyParser = require('body-parser');
+import 'dotenv/config';
+import express from 'express';
+import nodemailer from 'nodemailer'; // Alterado para `import`
+import cors from 'cors'; // Alterado para `import`
+import bodyParser from 'body-parser'; // Alterado para `import`
 
 const app = express();
-const port = 5004;
+const port = 5005;
+
 
 // Configuração do CORS global
 const corsOptions = {
   origin: [
+    'http://localhost:5173',
     'https://mirimachado.github.io', // URL do seu frontend no GitHub Pages
     'https://servidor-d2zh6y5dk-mirias-projects-84c4120f.vercel.app' // Caso precise adicionar o Vercel
   ],
@@ -69,6 +70,10 @@ app.post('/send-email', (req, res) => {
     });
   });
 });
+
+console.log('Email:', process.env.EMAIL_USER);
+console.log('Senha do aplicativo:', process.env.EMAIL_PASS);
+
 
 // Iniciar o servidor
 app.listen(port, () => {
