@@ -13,7 +13,7 @@ const corsOptions = {
   origin: [
     'http://localhost:5173',
     'https://mirimachado.github.io', // URL do seu frontend no GitHub Pages
-    'https://servidor-d2zh6y5dk-mirias-projects-84c4120f.vercel.app' // Caso precise adicionar o Vercel
+    'https://portfolio-photography-project.vercel.app' // Caso precise adicionar o Vercel
   ],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
