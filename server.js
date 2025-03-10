@@ -9,14 +9,25 @@ const port = 5005;
 
 
 // Configuração do CORS global
+// const corsOptions = {
+//   origin: [
+//     'http://localhost:5173',
+//     'https://mirimachado.github.io', 
+//     'https://portfolio-photography-project.vercel.app' 
+//   ],
+//   methods: ['GET', 'POST'],
+//   allowedHeaders: ['Content-Type'],
+// };
 const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'https://mirimachado.github.io', // URL do seu frontend no GitHub Pages
-    'https://portfolio-photography-project.vercel.app' // Caso precise adicionar o Vercel
+    'https://mirimachado.github.io',
+    'https://mirimachado.github.io/portfolio-photography-project', // Adicione esta linha
+    '*' // Temporariamente para debug
   ],
-  methods: ['GET', 'POST'],
+  methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
+  credentials: true
 };
 
 app.use(cors(corsOptions)); // Configuração do CORS aplicada globalmente
@@ -50,6 +61,11 @@ app.post('/send-email', (req, res) => {
     text: message,
     replyTo: email, // O e-mail de resposta será o e-mail do usuário
   };
+
+  // Adicione isso no server.js
+app.get('/', (req, res) => {
+  res.status(200).send('API está funcionando!');
+});
 
   // Enviar o e-mail
   transporter.sendMail(mailOptions, (error, info) => {
