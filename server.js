@@ -54,13 +54,14 @@ app.post('/send-email', (req, res) => {
   const { name, email, message } = req.body;
 
   // Adicione esta linha para configurar o Content-Security-Policy
-app.use((req, res, next) => {
-  res.setHeader(
-    'Content-Security-Policy',
-    "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'"
-  );
-  next();
-});
+  app.use((req, res, next) => {
+    res.setHeader(
+      'Content-Security-Policy',
+      "default-src 'self'; img-src 'self' https://portfolio-photography-project.vercel.app data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self' https://smtp.gmail.com;"
+    );
+    next();
+  });
+  
 
 // Rota para verificar se a API está funcionando
 app.get('/', (req, res) => {
