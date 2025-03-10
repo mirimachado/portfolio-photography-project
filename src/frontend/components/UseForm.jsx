@@ -58,7 +58,7 @@ const useForm = () => {
     try {
       const response = await fetch(
         process.env.NODE_ENV === "production"
-          ? "https://portfolio-photography-project-m1x9qaarc.vercel.app/send-email"
+          ? "https://portfolio-photography-project.vercel.app/send-email"
           : "http://localhost:5005/send-email",
         {
           method: "POST",

@@ -53,7 +53,7 @@ app.post('/send-email', (req, res) => {
   console.log("Requisição recebida:", req.body);
   const { name, email, message } = req.body;
 
-  // Adicione esta linha para configurar o Content-Security-Policy
+ 
   app.use((req, res, next) => {
     res.setHeader(
       'Content-Security-Policy',
