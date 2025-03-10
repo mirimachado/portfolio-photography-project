@@ -53,6 +53,24 @@ app.post('/send-email', (req, res) => {
   console.log("Requisição recebida:", req.body);
   const { name, email, message } = req.body;
 
+  // Adicione esta linha para configurar o Content-Security-Policy
+app.use((req, res, next) => {
+  res.setHeader(
+    'Content-Security-Policy',
+    "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'"
+  );
+  next();
+});
+
+// Rota para verificar se a API está funcionando
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    message: 'API de email funcionando!', 
+    status: 'online',
+    env: process.env.NODE_ENV || 'development'
+  });
+});
+
   // Configuração do e-mail que será enviado
   const mailOptions = {
     from: process.env.EMAIL_USER, // Seu e-mail como remetente
@@ -61,11 +79,6 @@ app.post('/send-email', (req, res) => {
     text: message,
     replyTo: email, // O e-mail de resposta será o e-mail do usuário
   };
-
-  // Adicione isso no server.js
-app.get('/', (req, res) => {
-  res.status(200).send('API está funcionando!');
-});
 
   // Enviar o e-mail
   transporter.sendMail(mailOptions, (error, info) => {
@@ -95,3 +108,4 @@ console.log('Senha do aplicativo:', process.env.EMAIL_PASS);
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
+
